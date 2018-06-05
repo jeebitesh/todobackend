@@ -3,5 +3,15 @@
 		{
 			"path": "C:\\PythonProjects\\todobackend"
 		}
-	]
+	],
+	"settings": {
+		"python.pythonPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+		"python.linting.pylintPath": "/path/to/virtualenv/bin/pylint",
+		"python.linting.pylintArgs": [
+			"--load-plugins",
+			"pylint_django"
+		],
+		"python.linting.pylintEnabled": true,
+		"editor.formatOnSave": true,
+	}
 }
